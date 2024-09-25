@@ -56,10 +56,23 @@
   border: 1px solid red;
   z-index: 1;
 }
+.illustration_key_holder {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  border: 1px solid red;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  border: 1px solid red;
 }
 
 /* и элемента с модификатором вида ключ-значение */
