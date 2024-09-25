@@ -24,7 +24,24 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 1;
   border: 1px solid red;
+}
+.title__header {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 64px;
+}
+.title_key_holder {
+  width: 730px;
+  border: 1px solid red;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  margin-left: 0;
+  padding-top: 0;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
