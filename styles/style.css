@@ -70,7 +70,61 @@
   background-color: #2f80ed;
   z-index: 0;
 }
-
+.description {
+  display: flex;
+  margin: 100px auto 100px auto;
+  width: 80%;
+  height: 100%;
+  min-width: 784px;
+}
+.brief {
+  width: 175px;
+}
+.brief-text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 0;
+  color: #2f80ed;
+}
+.main-text {
+  width: 80%;
+  min-width: 784px;
+  height: 100%;
+  margin-left: auto;
+}
+.brief-paragraph1_text {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.brief-paragraph2 {
+  margin-top: 30px;
+}
+.conclusion {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;  
+}
+.brief-paragraph2_text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.brief-paragraph3 {
+  margin-top: 30px;
+}
+.brief-paragraph3_text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
