@@ -72,10 +72,13 @@
 }
 .description {
   display: flex;
-  margin: 100px auto 100px auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
   height: 100%;
   min-width: 784px;
+  justify-content: space-between;
 }
 .brief {
   width: 175px;
@@ -124,6 +127,132 @@
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.digits {
+  margin-top: 100px;
+}
+.section-title__digits {
+  display: flex;
+  border: 1px solid red;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.title__digits {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 auto 0 auto;
+}
+.section-subtitle__digits {
+  display: flex;
+  border: 1px solid red;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subtitle__digits {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
+}
+.section-table__digits {
+  display: flex;
+  width: 1100px;
+  border: 1px dashed red;
+  height: 620px;
+  margin: 0 auto 100px auto;
+  justify-content: space-between;
+}
+.table-cell-1__digits {
+  width: 250px;
+  height: 130px;
+  border: 1px dashed green;
+  margin-top: 60px;
+  margin-left: 0;
+}
+.title__cell-1 {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.text__cell-1 {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+.table-cell-2__digits {
+  width: 250px;
+  border: 1px dashed pink;
+  margin-top: 60px;
+  height: 130px;
+}
+.title__cell-2 {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.text__cell-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.org-text__cell-2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.table-cell-3__digits {
+  width: 250px;
+  border: 1px dashed blue;
+  margin-top: 60px;
+  height: 130px;
+}
+.title__cell-3 {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.text__cell-3 {
+  margin-top: 20px;
+  margin-bottom: auto;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.table-cell-4__digits {
+  width: 250px;
+  border: 1px dashed violet;
+  margin-top: 60px;
+  height: 130px;
+}
+.title__cell-4 {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.text__cell-4 {
+  margin-top: 20px;
+  margin-bottom: auto;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
