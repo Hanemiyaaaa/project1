@@ -335,6 +335,62 @@
   font-size: 18px;
   font-weight: normal;
 }
+.feynman {
+  display: flex;
+  height: 890px;
+  margin-top: 100px;
+  flex-direction: column;
+  position: relative;
+}
+.title-feynman{
+  margin-left: auto;
+  margin-right: auto;
+  width: 648px;
+  margin-top: 100px;
+  height: 250px;
+  z-index: 2;
+}
+.title__feynman {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.subtitle-feynman {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+}
+.subtitle__feynman {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.link-feynman {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+.link__feynman {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+.logo__feynman {
+  position: absolute;
+  width: 637px;
+  height: 867px;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  z-index: 1;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
